@@ -1,0 +1,18 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000001",
+  "customer_name": "Anna",
+  "message": "Hi, you changed the battery of my iPhone 12 last month (REP-1001) and it drains very fast again. I didn't drop it or get it wet.",
+  "expected": {
+    "status": "routed",
+    "decision": "warranty_repair",
+    "assigned_queue": "mobile_bench",
+    "quoted_price": 0,
+    "tools_called": [
+      "lookup_repairs",
+      "check_warranty",
+      "submit_resolution"
+    ],
+    "why": "Picked up 40 days ago (< 90), same repair (battery), normal use -> covered, free."
+  }
+}

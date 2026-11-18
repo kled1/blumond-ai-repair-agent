@@ -1,0 +1,17 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000007",
+  "customer_name": "Luca",
+  "message": "My Samsung Galaxy A52 fell in the pool yesterday and now it doesn't turn on. Can you fix it?",
+  "expected": {
+    "status": "routed",
+    "decision": "create_repair_order",
+    "assigned_queue": "board_level",
+    "quoted_price": null,
+    "tools_called": [
+      "get_repair_quote",
+      "submit_resolution"
+    ],
+    "why": "Water damage needs a diagnosis first: no fixed price, €15 diagnostic fee (waived if repaired). -> board_level."
+  }
+}

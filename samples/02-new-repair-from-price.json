@@ -1,0 +1,17 @@
+{
+  "channel": "walk_in",
+  "customer_phone": "+355690000006",
+  "customer_name": "Marco",
+  "message": "Customer brought a Lenovo IdeaPad laptop, several keys on the keyboard don't work. Wants a price.",
+  "expected": {
+    "status": "routed",
+    "decision": "create_repair_order",
+    "assigned_queue": "computer_bench",
+    "quoted_price": 79,
+    "tools_called": [
+      "get_repair_quote",
+      "submit_resolution"
+    ],
+    "why": "No exact Lenovo row, so the generic laptop keyboard 'from' price (€79) applies. Laptop -> computer_bench."
+  }
+}

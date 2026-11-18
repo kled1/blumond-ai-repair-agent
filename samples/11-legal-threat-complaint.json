@@ -1,0 +1,15 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000003",
+  "customer_name": "Carla",
+  "message": "You repaired my Dell laptop keyboard (REP-1003) and now the screen doesn't work. You broke it. I will go to court if you don't pay for a new laptop.",
+  "expected": {
+    "status": "needs_human",
+    "decision": "escalate_to_human",
+    "assigned_queue": "front_desk",
+    "flags": [
+      "legal_or_chargeback"
+    ],
+    "why": "Complaint + legal threat: always a human. Enforced by code."
+  }
+}

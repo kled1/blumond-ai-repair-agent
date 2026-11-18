@@ -1,0 +1,16 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000002",
+  "customer_name": "Ben",
+  "message": "Hello, is my Samsung ready? Job REP-1002",
+  "expected": {
+    "status": "resolved",
+    "decision": "answer_question",
+    "assigned_queue": null,
+    "tools_called": [
+      "lookup_repairs",
+      "submit_resolution"
+    ],
+    "why": "REP-1002 belongs to Ben, status waiting_parts, estimated ready in 2 days."
+  }
+}

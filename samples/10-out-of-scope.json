@@ -1,0 +1,15 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000011",
+  "customer_name": null,
+  "message": "Can you write my school essay about the Roman Empire? 500 words please.",
+  "expected": {
+    "status": "rejected",
+    "decision": "reject_out_of_scope",
+    "assigned_queue": null,
+    "tools_called": [
+      "submit_resolution"
+    ],
+    "why": "Not related to electronics repair."
+  }
+}

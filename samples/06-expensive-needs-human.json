@@ -1,0 +1,16 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000008",
+  "customer_name": "Sara",
+  "message": "Hello, the screen of my MacBook Pro 14 has lines and flickers. What would the replacement cost?",
+  "expected": {
+    "status": "needs_human",
+    "decision": "escalate_to_human",
+    "assigned_queue": "front_desk",
+    "tools_called": [
+      "get_repair_quote",
+      "submit_resolution"
+    ],
+    "why": "List price €389 is above the €250 limit, so a technician must confirm the quote. Enforced by OutputGuard even if the model tries create_repair_order."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000009",
+  "customer_name": null,
+  "message": "my phone is broken how much",
+  "expected": {
+    "status": "waiting_customer",
+    "decision": "request_more_info",
+    "assigned_queue": null,
+    "tools_called": [
+      "submit_resolution"
+    ],
+    "why": "No model and no description of the problem. The agent asks for model + problem (+ photo)."
+  }
+}

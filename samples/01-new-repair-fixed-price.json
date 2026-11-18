@@ -1,0 +1,17 @@
+{
+  "channel": "whatsapp",
+  "customer_phone": "+355690000005",
+  "customer_name": "Elena",
+  "message": "Hi, I dropped my iPhone 13 and the screen is cracked, the touch still works. How much is it and how long does it take?",
+  "expected": {
+    "status": "routed",
+    "decision": "create_repair_order",
+    "assigned_queue": "mobile_bench",
+    "quoted_price": 129,
+    "tools_called": [
+      "get_repair_quote",
+      "submit_resolution"
+    ],
+    "why": "iPhone 13 screen is in the price list: fixed €129, 1 day. Phone + screen -> mobile_bench."
+  }
+}
